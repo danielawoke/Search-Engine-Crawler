@@ -1,13 +1,6 @@
-# For this crawler to work, you have to download BeautifulSoup4 through pip install, and make sure
-# to check your appData directory for a foloder named "BeautifulSoup" in plain, other wise imports
-# wont work. change the total based on how many links/how deep you want your crawler to crawl. change
-# the link based on the link you want the crawler to start crawling on. I haven't really made anything
-# 'cool' out of this aside from it being a straight forward crawler, but you can learn alot about how
-# websites are connected by using this.
 total = 100 
 from bs4 import BeautifulSoup
 import requests
-# import numpy as np
 from tkinter import *
 from tkinter import ttk
 import tkinter as tk
